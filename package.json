@@ -1,0 +1,31 @@
+{
+  "name": "rsvp-boda",
+  "version": "1.0.0",
+  "description": "rsvp-boda Jacob & Pati",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite -- port 3000 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/Patriciaddc80/RSVP-BODA.git"
+  },
+  "author": "Patricia Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patriciaddc80/RSVP-BODA/issues"
+  },
+  "homepage": "https://github.com/Patriciaddc80/RSVP-BODA#readme",
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^5.0.0"
+  }
+}
