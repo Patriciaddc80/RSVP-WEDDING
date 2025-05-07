@@ -20,7 +20,7 @@
         <h1
           class="font-gathering text-6xl md:text-7xl text-primary text-center mb-6"
         >
-          Jacob & Paty
+          Jacob & Paty.
         </h1>
         <p
           class="font-raleway text-xl text-secondary text-center mb-12 max-w-2xl"
