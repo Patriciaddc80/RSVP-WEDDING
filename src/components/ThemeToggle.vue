@@ -1,13 +1,13 @@
 <template>
   <button
     @click="toggleTheme"
-    class="fixed bottom-4 right-4 p-3 rounded-full bg-primary hover:bg-primary-dark text-white shadow-lg transition-all duration-300 z-50"
+    class="p-2 rounded-full bg-primary hover:bg-primary-dark text-white shadow-lg transition-all duration-300"
     :title="isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'"
   >
     <svg
       v-if="isDark"
       xmlns="http://www.w3.org/2000/svg"
-      class="h-6 w-6"
+      class="h-5 w-5"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"
@@ -22,7 +22,7 @@
     <svg
       v-else
       xmlns="http://www.w3.org/2000/svg"
-      class="h-6 w-6"
+      class="h-5 w-5"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"

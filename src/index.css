@@ -24,7 +24,7 @@
   }
 
   .dark p {
-    @apply text-white;
+    @apply text-secondary-light;
   }
 }
 

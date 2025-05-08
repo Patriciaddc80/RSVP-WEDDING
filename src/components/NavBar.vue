@@ -14,8 +14,9 @@
             </router-link>
           </div>
 
-          <!-- Botón Menú Móvil -->
-          <div>
+          <!-- Botón Menú Móvil y Theme Toggle -->
+          <div class="flex items-center gap-4">
+            <ThemeToggle />
             <button
               @click="isOpen = !isOpen"
               class="text-primary dark:text-primary-light hover:text-secondary dark:hover:text-secondary-light focus:outline-none"
@@ -77,15 +78,20 @@
     <div
       class="hidden md:block bg-primary dark:bg-primary-dark py-4 px-8 border-b-2 border-gold dark:border-secondary-light shadow-lg"
     >
-      <div class="max-w-7xl mx-auto flex justify-center gap-8">
-        <router-link
-          v-for="item in menuItems"
-          :key="item.path"
-          :to="item.path"
-          class="text-white font-raleway font-medium hover:text-gold dark:hover:text-secondary-light transition-colors duration-300 text-lg"
-        >
-          {{ item.name }}
-        </router-link>
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="flex justify-center gap-8 flex-1">
+          <router-link
+            v-for="item in menuItems"
+            :key="item.path"
+            :to="item.path"
+            class="text-white font-raleway font-medium hover:text-gold dark:hover:text-secondary-light transition-colors duration-300 text-lg"
+          >
+            {{ item.name }}
+          </router-link>
+        </div>
+        <div class="flex items-center">
+          <ThemeToggle />
+        </div>
       </div>
     </div>
   </nav>
@@ -93,6 +99,7 @@
 
 <script setup>
 import { ref } from "vue";
+import ThemeToggle from "./ThemeToggle.vue";
 
 const isOpen = ref(false);
 
