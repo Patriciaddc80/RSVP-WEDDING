@@ -4,7 +4,9 @@
       <div
         class="bg-white/95 dark:bg-transparent backdrop-blur-sm p-8 rounded-lg shadow-lg border border-primary/20"
       >
-        <h2 class="font-gathering text-5xl text-primary text-center mb-8">
+        <h2
+          class="font-gathering text-3xl md:text-5xl text-primary text-center mb-8 whitespace-nowrap"
+        >
           Confirm Your Attendance
         </h2>
 
