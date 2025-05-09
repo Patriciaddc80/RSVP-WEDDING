@@ -7,7 +7,7 @@
             <div class="relative w-[400px] h-[400px] mx-auto">
               <img
                 src="/src/assets/copols-wedding.jpg"
-                alt="Wedding Rings"
+                alt="Jacob & Paty - Wedding Couple"
                 class="w-full h-full object-cover rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.16)] transform transition-all duration-500 group-hover:scale-105 border-4 border-primary/20 will-change-transform"
               />
               <div
@@ -20,12 +20,12 @@
         <h1
           class="font-gathering text-6xl md:text-7xl text-primary text-center mb-6"
         >
-          Jacob & Paty.
+          Jacob & Paty
         </h1>
         <p
           class="font-raleway text-xl text-secondary text-center mb-12 max-w-2xl"
         >
-          Nos complace invitarte a celebrar nuestra boda
+          Nos complace invitarte a celebrar nuestra boda el 15 de Julio de 2026
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <button

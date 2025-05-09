@@ -7,7 +7,6 @@
     <Location id="location" />
     <WeddingItinerary id="itinerary" />
     <RsvpForm id="rsvp" />
-    <ThemeToggle />
     <footer class="bg-primary text-white py-4 text-center">
       <p>&copy; 2023 Wedding of Jacob & Paty. All rights reserved.</p>
     </footer>
@@ -22,7 +21,6 @@ import Invitation from "./components/Invitation.vue";
 import Story from "./components/Story.vue";
 import Location from "./components/Location.vue";
 import WeddingItinerary from "./components/WeddingItinerary.vue";
-import ThemeToggle from "./components/ThemeToggle.vue";
 </script>
 
 <style>

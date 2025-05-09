@@ -1,7 +1,7 @@
 <template>
   <button
     @click="toggleTheme"
-    class="p-2 rounded-full bg-primary hover:bg-primary-dark text-white shadow-lg transition-all duration-300"
+    class="p-2 rounded-full bg-primary hover:bg-gold text-white shadow-lg transition-all duration-300"
     :title="isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'"
   >
     <svg
